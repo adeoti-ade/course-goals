@@ -10,6 +10,7 @@ const App = () => {
     { text: 'Finish the course!', id: 'g2' }
   ]);
 
+  // retrievd the entered text from the form component
   const addGoalHandler = enteredText => {
     setCourseGoals(prevGoals => {
       const updatedGoals = [...prevGoals];
